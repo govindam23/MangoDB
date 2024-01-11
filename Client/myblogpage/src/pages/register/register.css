@@ -1,0 +1,56 @@
+.register {
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #914d4d81;
+    background-size: cover;
+  }
+  
+  .RTitle {
+    font-size: 50px;
+  }
+  
+  .RForm {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .RForm > label {
+    margin: 10px 0;
+  }
+  
+  .RInput {
+    padding: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+  }
+  
+  .RInput:focus {
+    outline: none;
+  }
+  
+  .RButton {
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .RLoginButton {
+    margin-top: 20px;
+    width: 10%;
+    background-color: rgb(0, 0, 0);
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+  }
